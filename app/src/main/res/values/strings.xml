@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ToDoist</string>
+    <string name="task_name">Task Name</string>
+    <string name="due_date">Due Date</string>
+    <string name="title">Title</string>
+    <string name="priority">Priority</string>
+    <string name="completed">Completed</string>
+    <string name="save">Save</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="delete">Delete</string>
+    <string name="add_task">Add Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="all_done_text">Nailing it.. No pending tasks</string>
+    <string-array name="priority_array">
+        <item>High</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+</resources>

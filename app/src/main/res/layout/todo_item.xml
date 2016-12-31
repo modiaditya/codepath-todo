@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/todo_item_vertical_margin"
+              android:paddingBottom="@dimen/todo_item_vertical_margin"
+              android:orientation="horizontal"
+              android:layout_gravity="center"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/task_section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/task_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            tools:text="Go for a run"
+            />
+
+        <TextView
+            android:id="@+id/task_due_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            tools:text="12/12/2016"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_gravity="end|center_vertical"
+        android:id="@+id/priority_image"
+        android:src="@drawable/ic_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</FrameLayout>
