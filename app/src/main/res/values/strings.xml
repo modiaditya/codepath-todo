@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ToDoist</string>
+    <string name="app_name">List.Finish</string>
     <string name="task_name">Task Name</string>
     <string name="due_date">Due Date</string>
     <string name="title">Title</string>
